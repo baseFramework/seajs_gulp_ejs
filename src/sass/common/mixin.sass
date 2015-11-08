@@ -1,0 +1,48 @@
+@mixin boxSizing($type)
+	-webkit-box-sizing: $type
+	-moz-box-sizing: $type
+	-o-box-sizing: $type
+	-ms-box-sizing: $type
+	box-sizing: $type
+
+@mixin transition($attr, $time, $method)
+		-webkit-transition: $attr $time $method
+		-moz-transition: $attr $time $method
+		-o-transition: $attr $time $method
+		-ms-transition: $attr $time $method
+		transition: $attr $time $method
+@mixin boxCenter()
+	display: -webkit-box
+	display: -moz-box
+	display: -ms-box
+	display: -o-box
+	display: box
+	-webkit-box-pack: center
+	-moz-box-pack: center
+	-o-box-pack: center
+	-ms-box-pack: center
+	box-pack: center
+	-webkit-box-align: center
+	-moz-box-align: center
+	-o-box-align: center
+	-ms-box-align: center
+	box-align: center
+
+@mixin displayBox()
+	display: -webkit-box
+	display: -moz-box
+	display: -ms-box
+	display: -o-box
+	display: box
+
+@mixin boxOrientH()
+	-webkit-box-orient: horizontal
+	-moz-box-orient: horizontal
+	-o-box-orient: horizontal
+	-ms-box-orient: horizontal
+	box-orient: horizontal
+
+
+
+
+
