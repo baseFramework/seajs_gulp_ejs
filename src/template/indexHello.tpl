@@ -1,1 +1,1 @@
-<div class="hello"> append me! HaHa</div>
+<div class="hello">Hello World! static Page!</div>
